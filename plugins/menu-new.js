@@ -15,29 +15,29 @@ cmd({
         // Count total commands
         const totalCommands = Object.keys(commands).length;
         
-        const menuCaption = ` ╭─〔 *${config.BOT_NAME}* 〕─╮
-┃ 👑 Owner: *${config.OWNER_NAME}*
-┃ 🤖 Baileys: Multi Device
-┃ 💻 Type: NodeJs
-┃ 🚀 Platform: Heroku
-┃ ⚙️ Mode: [${config.MODE}]
-┃ 🔣 Prefix: [${config.PREFIX}]
-┃ 🏷️ Version: 5.0.0 Beta
-┃ 📚 Commands: *${totalCommands}*
-╰───────────────╯
+        const menuCaption = `╭━━━┅〔*${config.BOT_NAME}* 〕┅━━━╮
+┃ 🫡 𝗢𝘄𝗻𝗲𝗿    : *${config.OWNER_NAME}*
+┃ ⚙️ 𝗠𝗼𝗱𝗲     : *${config.MODE}*
+┃ ☕ 𝗣𝗿𝗲𝗳𝗶𝘅   : *${config.PREFIX}*
+┃ 🤖 𝗕𝗮𝗶𝗹𝗲𝘆𝘀   : *Multi Device*
+┃ 🧠 𝗧𝘆𝗽𝗲     : *Node.js*
+┃ 🚀 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : *Heroku*
+┃ 🏷️ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻  : *4.0.0 Beta*
+┃ *💬 Commands* : *${totalCommands}*
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-╭─〔 *Menu List* 〕─╮
-┃1️⃣ 📥 Download Menu
-┃2️⃣ 👥 Group Menu
-┃3️⃣ 😄 Fun Menu
-┃4️⃣ 👑 Owner Menu
-┃5️⃣ 🤖 AI Menu
-┃6️⃣ 🎎 Anime Menu
-┃7️⃣ 🔄 Convert Menu
-┃8️⃣ 📌 Other Menu
-┃9️⃣ 💞 Reactions Menu
-┃🔟 🏠 Main Menu
-╰───────────────╯
+╭─〔 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗠𝗘𝗡𝗨𝗦 〕─╮
+┃ ➊ ꔹ 📥 *𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐧𝐮*
+┃ ➋ ꔹ 👥 *𝐆𝐫𝐨𝐮𝐩 𝐌𝐞𝐧𝐮*
+┃ ➌ ꔹ 🎮 *𝐅𝐮𝐧 𝐌𝐞𝐧𝐮*
+┃ ➍ ꔹ 👑 *Owner Menu*
+┃ ➎ ꔹ 🤖 *𝐀𝐈 𝐌𝐞𝐧𝐮*
+┃ ➏ ꔹ 🎎 *𝐀𝐧𝐢𝐦𝐞 𝐌𝐞𝐧𝐮*
+┃ ➐ ꔹ ♻️ *𝐂𝐨𝐧𝐯𝐞𝐫𝐭 𝐌𝐞𝐧𝐮*
+┃ ➑ ꔹ ⚙️ *𝐎𝐭𝐡𝐞𝐫 𝐌𝐞𝐧𝐮*
+┃ ➒ ꔹ 🫧 *𝐑𝐞𝐚𝐜𝐭𝐢𝐨𝐧𝐬 𝐌𝐞𝐧𝐮*
+┃ ➓ ꔹ 🏠 *𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮*
+╰──────────────────────╯
 > ${config.DESCRIPTION}`;
 
         const contextInfo = {
@@ -97,18 +97,18 @@ cmd({
                 title: "📥 *Download Menu* 📥",
                 content: `╭━━〔 *Download Menu* 〕━━╮
 ┃ ★ *Social Media*
-┃  ├ facebook [url]
-┃  ├ mediafire [url]
-┃  ├ tiktok [url]
-┃  ├ twitter [url]
-┃  ├ insta [url]
-┃  ├ apk [app]
-┃  ├ img [query]
-┃  ├ tt2 [url]
-┃  ├ pins [url]
-┃  ├ apk2 [app]
-┃  ├ fb2 [url]
-┃  └ pinterest [url]
+┃  ├ *facebook [url]*
+┃  ├ *mediafire [url]*
+┃  ├ *tiktok [url]*
+┃  ├ *twitter [url]*
+┃  ├ *insta [url]*
+┃  ├ *apk [app]*
+┃  ├ *img [query]*
+┃  ├ *tt2 [url]*
+┃  ├ *pins [url]*
+┃  ├ *apk2 [app]*
+┃  ├ *fb2 [url]*
+┃  └ *pinterest [url]*
 ┃
 ┃ ★ *Music/Video*
 ┃  ├ spotify [query]
